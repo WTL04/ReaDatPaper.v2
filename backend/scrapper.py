@@ -71,7 +71,7 @@ def clean_content(text):
 
 
 if __name__ == "__main__":
-    test_url = "https://nida.nih.gov/research-topics/addiction-science/drugs-brain-behavior-science-of-addiction"
+    test_url = "https://arxiv.org/html/2501.13833v1"
     content = fetch_web_content(test_url)
     print(content)
 
