@@ -13,5 +13,12 @@ def return_home():
         'message': "hello from the backend!"
     })
 
+
+# /api/data
+@app.route('/api/data', methods=['POST'])
+def handle_data():
+    # fetch article, summarize, and send to frontend
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=8079)

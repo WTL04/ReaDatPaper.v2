@@ -17,9 +17,10 @@ export default function RootPage() {
 
   return (
     <>
-      <div className="bg-blue-500">
+      <div className="bg-blue-500 p-20">
         <h1>Home page</h1>
         <p> {message}</p>
+        <input type="url" id="link" name="link" placeholder="Enter a link" />
       </div>
     </>
   );
